@@ -9,21 +9,21 @@
 </head>
 
 <body>
-    <div id="main_container">
+    <div id="content_container">
+        <div id="content">
+            <div class="project_tile" onclick="window.location = 'https://nulljcd.github.io/machine-learning';">
+                <div class="project_tile_header">Machine Learning</div>
+                <div class="project_tile_description">As machine learning started blowing up, I really wanted to fully understand how it actually worked.</div>
+            </div>
+        </div>
+    </div>
+    <div id="navigation_bar_container">
         <div id="navigation_bar">
             <div id="navigation_bar_logo">nulljcd</div>
             <div id="navigation_bar_spacer"></div>
-            <div class="navigation_bar_link" onclick="window.location = `https://nulljcd.github.io`;">/home/</div>
-            <div class="navigation_bar_link" onclick="window.location = `https://nulljcd.github.io/about`;">/about/</div>
-            <div class="navigation_bar_link_selected" onclick="window.location = `https://nulljcd.github.io/projects`;">/projects/</div>
-        </div>
-        <div id="content_container">
-            <div id="content">
-                <div class="project_tile" onclick="window.location = `https://nulljcd.github.io/machine-learning`;">
-                    <div class="project_tile_header">Machine Learning</div>
-                    <div class="project_tile_description">As machine learning started blowing up, I really wanted to fully understand how it actually worked.</div>
-                </div>
-            </div>
+            <a class="navigation_bar_link" href="https://nulljcd.github.io">/home/</a>
+            <a class="navigation_bar_link" href="https://nulljcd.github.io/about">/about/</a>
+            <a class="navigation_bar_link_selected" href="https://nulljcd.github.io/projects">/projects/</a>
         </div>
     </div>
 </body>
